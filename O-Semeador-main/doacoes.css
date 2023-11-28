@@ -205,3 +205,38 @@ iframe {
   font-size: 15px;
 }
 
+/*final do footer*/
+
+.fotoCrianca img{
+  width: 740px;
+  height: 530px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 80px;
+  float: left;
+  margin-right: 20px;
+}
+
+.textoDoador {
+  justify-content: center;
+  margin-left: 850px;
+  overflow: hidden;
+  text-align: left;
+  margin-top: 70px;
+}
+
+.textoDoador>h1{
+  font-family: 'Poppins', sans-serif;
+  color: #EF653F;
+  font-size: 38px;
+}
+
+.textoDoador>p{
+  font-family: 'Montserrat', sans-serif;
+  color: #111678;
+  font-size: 25px;
+  margin-top: 37px;
+}
+
