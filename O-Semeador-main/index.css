@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+.logo img {
+    width: auto; 
+    height: 120px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6;
+}
+  
+.meu-header {
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    color: #111678;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 0px;
+}
+  
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.texto {
+    padding-left: 1px;
+    padding-right: 70px;
+    text-decoration: none; 
+    color: #111678; 
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 300px;
+    font-size: 23px;
+    transition: color 0.3s ease;
+}
+
+.texto:hover {
+    color: #EF653F; 
+}
+
+.textos1{
+    text-align: center;
+}
+
+.textos1 h1{
+    color: #EF653F; 
+    font-size: 45px; 
+    margin-bottom: 20px; 
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 150px;
+}
+  
+.textos1 p {
+    color: black; 
+    font-size: 23px; 
+    line-height: 1.5; 
+    font-style: bold;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e6e6e6; 
+    padding: 40px; 
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 800px; 
+    margin: 0 auto; 
+     
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 700px;
+    height: 480px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: #EF653F;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+}
+
+.projetos {
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif ;
+    margin-bottom: 20px;
+}
+
+.projetos h1{
+    color: #111678;
+    font-size: 37px;
+    text-align: center;
+}
+
+.projetos p{
+    color: white;
+    font-size: 23px;
+    font-style: bold;
+    text-align: center;
+    font-weight: 300;
+    padding: 10px 30px;
+}
+
+.main {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.card2, .card3{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.card4, .card5{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card2 {
+    width: 700px;
+    height: 480px;
+    border-radius: 15px;
+    margin-top: 250px;
+    background-color: #111678;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+}
+
+
+.text2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif ;
+    height: 215px;
+}
+
+
+.text2>h3 {
+    color: #EF653F;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.text2>p {
+    color: #e6e6e6;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    font-weight: 300;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+
+.card3 {
+    width: 700px;
+    height: 480px;
+    border-radius: 15px;
+    margin-top: 250px;
+    background-color: #e6e6e6;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+}
+
+
+.text3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif ;
+    height: 215px;
+}
+
+
+.text3>h3 {
+    color: #EF653F;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.text3>p {
+    color: #111678;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    font-weight: 300;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+
+.card4 {
+    width: 700px;
+    height: 480px;
+    border-radius: 15px;
+    margin-top: 250px;
+    background-color: #EF653F;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+}
+
+
+.text4 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif ;
+    height: 215px;
+}
+
+
+.text4>h3 {
+    color: #111678;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.text4>p {
+    color: #e6e6e6;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    font-weight: 300;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+
+.card5 {
+    width: 700px;
+    height: 480px;
+    border-radius: 15px;
+    margin-top: 250px;
+    background-color: #111678;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+}
+
+
+.text5 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif ;
+    height: 215px;
+}
+
+
+.text5>h3 {
+    color: #EF653F;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.text5>p {
+    color: #e6e6e6;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    font-weight: 300;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+
+.card6 {
+    width: 700px;
+    height: 480px;
+    border-radius: 15px;
+    margin-top: 250px;
+    background-color: #e6e6e6;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+}
+
+
+.text6 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif ;
+    height: 215px;
+}
+
+
+.text6>h3 {
+    color: #EF653F;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.text6>p {
+    color: #111678;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    font-weight: 300;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+
+/*footer*/
+
+footer {
+    background-color: #EF653F;
+    color: #E6E6E6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 300px;
+}
+
+.link-underline {
+    text-decoration: none;
+}
+
+footer div {
+    flex: 1;
+    margin-right: 0px;
+}
+
+iframe {
+    width: 40%;
+    height: 250px;
+    margin-left: 550px;
+}
+
+.margin{
+    margin-top: 25px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+
+
